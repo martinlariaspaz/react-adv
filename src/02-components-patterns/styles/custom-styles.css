@@ -22,3 +22,13 @@
   top: 0px;
   right: 10px;
 }
+.max-disabled{
+  border-color: grey !important;
+  border-left: white !important;
+  color: grey !important;
+}
+.min-disabled{
+  border-color: grey !important;
+  border-right: white !important;
+  color: grey !important;
+}

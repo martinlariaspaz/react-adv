@@ -10,7 +10,7 @@ interface ButtonProps {
 export const Button = ({ increaseBy, content, className }: ButtonProps) => {
     return (
       <button
-        className={content === "+" ? styles.buttonAdd : styles.buttonMinus}
+        className={`${content === "+" ? styles.buttonAdd : styles.buttonMinus} ${className}`}
         onClick={increaseBy}
       >
         {content}
